@@ -155,7 +155,7 @@ public class TopLevelWindow
 
     public void noButton(JFrame frame){
         noButton = new JButton("Eva");
-        frame.getContentPane().add(noButton,new Integer(3), 0);
+        frame.getContentPane().add(noButton, 3, 0);
         noButton.setBounds((screenSize.width/2),300,200,50);
         noButton.addActionListener(e -> {
                 deletePicture(frame, dNormal);
@@ -242,9 +242,6 @@ public class TopLevelWindow
                 break;
         }
     }
-
-
-
 
 
     public static void main(String[] args)
